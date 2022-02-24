@@ -85,7 +85,7 @@ PM_START_TEXT = """
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/fd4d459027796bbe18f51.jpg) ××
+➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/033802b4c2e71a58554e9.mp4) ××
 """
 
 HELP_STRINGS = """
@@ -106,14 +106,14 @@ List of all the Modules:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Flare To Your Group",
+                            text=f"Add me To Your Group",
                             url=f"https://telegram.dog/@{BOT_USERNAME}?startgroup=true")
                     ],
                    [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/OtaKu_Gang1"),
-                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
-                     ],
+                       InlineKeyboardButton(text=" Help ", callback_data="help_back"),
+                       InlineKeyboardButton(text="Chit Chat", url="https://t.me/OtaKu_Gang1"),
+                       InlineKeyboardButton(text="Inline ", switch_inline_query_current_chat=""),
+                     
                     [                  
                        InlineKeyboardButton(
                              text="🚑 Support",
