@@ -74,18 +74,18 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-GROUP_START_IMG = "https://telegra.ph/file/2cd6f97e0cf04d63cabf4.mp4"
+GROUP_START_IMG = "https://telegra.ph/file/fd4d459027796bbe18f51.jpg"
 
 FLARE_PHOTO = "https://telegra.ph/file/2a171330f0ad1fc02465c.jpg"
 
 PM_START_TEXT = """
 ────「 {} 」────
 *Hey! {},*
-* I am an Anime themed advance group management bot with a lots of Features.*
+* I am suru , a  group management bot with a lots of Features.*
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/852e96d6c59f2ccad32df.jpg) ××
+➛ Try The Help Buttons Below To Know My Abilities[.](https://telegra.ph/file/fd4d459027796bbe18f51.jpg) ××
 """
 
 HELP_STRINGS = """
