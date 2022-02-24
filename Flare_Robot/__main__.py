@@ -76,12 +76,12 @@ def get_readable_time(seconds: int) -> str:
 
 GROUP_START_IMG = "https://telegra.ph/file/2cd6f97e0cf04d63cabf4.mp4"
 
-FLARE_PHOTO = "https://telegra.ph/file/2a171330f0ad1fc02465c.jpg"
+FLARE_PHOTO = "https://telegra.ph/file/d788ef3edc7bdd9737c75.jpg"
 
 PM_START_TEXT = """
 ────「 {} 」────
 *Hey! {},*
-* I am an Anime themed advance group management bot with a lots of Features.*
+* I am suru a group management bot with a lots of Features.*
 ➖➖➖➖➖➖➖➖➖➖➖
 • *Uptime:* `{}`
 ➖➖➖➖➖➖➖➖➖➖➖
@@ -89,7 +89,7 @@ PM_START_TEXT = """
 """
 
 HELP_STRINGS = """
-Hey there, I'm Flare Robot !
+Hey there, I'm suru Robot !
 To make me functional, make sure that i have enough rights in your group.
 Helpful commands:
 - /start: Starts me! You've probably already used this.
@@ -106,13 +106,13 @@ List of all the Modules:
 buttons = [
     [
                         InlineKeyboardButton(
-                            text=f"Add Flare To Your Group",
+                            text=f"Add suru To Your Group",
                             url=f"https://telegram.dog/@{BOT_USERNAME}?startgroup=true")
                     ],
                    [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="❔ Chit Chat", url="https://t.me/OtaKu_Gang1"),
-                       InlineKeyboardButton(text="[► Inline ◄]", switch_inline_query_current_chat=""),
+                       InlineKeyboardButton(text="[ Help ]", callback_data="help_back"),
+                       InlineKeyboardButton(text=" Chit Chat", url="https://t.me/OtaKu_Gang1"),
+                       InlineKeyboardButton(text="[ Inline ]", switch_inline_query_current_chat=""),
                      ],
                     [                  
                        InlineKeyboardButton(
